@@ -11,6 +11,7 @@ skipDirs = @["tests"]
 # Deps
 
 requires "nim >= 1.0.0"
+requires "regex >= 0.21.0"
 requires "httpbeast >= 0.4.0"
 
 task test, "Runs the test suite.":
